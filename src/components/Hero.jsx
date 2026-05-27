@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { ArrowDownRight } from 'lucide-react';
-import heroImg from '../assets/hero_portrait.png';
+import heroImg from '../assets/hero_portrait.jpg';
 
 const fadeUp = (delay = 0) => ({
   initial: { opacity: 0, y: 30 },
