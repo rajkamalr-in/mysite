@@ -2,7 +2,15 @@ import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const links = ['About', 'Works', 'Journey', 'Insights', 'Contact'];
+const links = [
+  { label: 'About',           href: '#about' },
+  { label: 'Projects',        href: '#projects' },
+  { label: 'Skills',          href: '#skills' },
+  { label: 'Achievements',    href: '#achievements' },
+  { label: 'Activity',        href: '#activity' },
+  { label: 'Work Experience', href: '#work-experience' },
+  { label: 'Contact',         href: '#contact' },
+];
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -29,12 +37,12 @@ export default function Navbar() {
         {/* Desktop Links */}
         <ul className="hidden md:flex items-center gap-8">
           {links.map((l) => (
-            <li key={l}>
+            <li key={l.label}>
               <a
-                href={`#${l.toLowerCase()}`}
+                href={l.href}
                 className="text-sm font-medium text-muted hover:text-ink transition-colors"
               >
-                {l}
+                {l.label}
               </a>
             </li>
           ))}
@@ -65,12 +73,12 @@ export default function Navbar() {
           >
             {links.map((l) => (
               <a
-                key={l}
-                href={`#${l.toLowerCase()}`}
+                key={l.label}
+                href={l.href}
                 onClick={() => setOpen(false)}
                 className="text-base font-medium text-ink"
               >
-                {l}
+                {l.label}
               </a>
             ))}
             <a
