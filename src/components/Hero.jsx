@@ -66,7 +66,7 @@ export default function Hero() {
           {/* CTAs */}
           <motion.div {...fadeUp(0.5)} className="flex flex-wrap gap-4">
             <a
-              href="#works"
+              href="#projects"
               className="inline-flex items-center gap-2 bg-ink text-white font-semibold text-sm px-7 py-3.5 rounded-full hover:bg-gray-800 transition-colors"
             >
               View Portfolio <ArrowDownRight size={16} />
