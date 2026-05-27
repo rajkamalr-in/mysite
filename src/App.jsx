@@ -6,6 +6,7 @@ import Skills from './components/Skills';
 import Achievements from './components/Achievements';
 import Activity from './components/Activity';
 import Journey from './components/Journey';
+import Education from './components/Education';
 import CallToAction from './components/CallToAction';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
@@ -22,6 +23,7 @@ export default function App() {
         <Achievements />
         <Activity />
         <Journey />
+        <Education />
         <CallToAction />
       </main>
       <Footer />
