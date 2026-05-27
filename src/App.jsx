@@ -17,12 +17,12 @@ export default function App() {
       <main>
         <Hero />
         <AboutBento />
+        <Journey />
         <Projects />
         <Skills />
-        <Achievements />
-        <Activity />
-        <Journey />
         <Education />
+        <Activity />
+        <Achievements />
       </main>
       <Footer />
       <ScrollToTop />

@@ -4,12 +4,12 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const links = [
   { label: 'About',           href: '#about' },
+  { label: 'Work Experience', href: '#work-experience' },
   { label: 'Projects',        href: '#projects' },
   { label: 'Skills',          href: '#skills' },
-  { label: 'Achievements',    href: '#achievements' },
-  { label: 'Activity',        href: '#activity' },
-  { label: 'Work Experience', href: '#work-experience' },
   { label: 'Education',       href: '#education' },
+  { label: 'Activity',        href: '#activity' },
+  { label: 'Achievements',    href: '#achievements' },
   { label: 'Contact',         href: '#contact' },
 ];
 
