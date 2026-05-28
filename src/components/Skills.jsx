@@ -169,85 +169,17 @@ export default function Skills() {
                 </div>
 
                 {/* Skill Layout */}
-                {group.cat === 'Tools & Platforms' ? (
-                  <div className="flex flex-col gap-4">
-                    {/* Standard pills before VS Code */}
-                    <div className="flex flex-wrap gap-2">
-                      {group.skills
-                        .filter((skill) => skill === 'Git' || skill === 'GitHub')
-                        .map((skill) => (
-                          <span
-                            key={skill}
-                            className="inline-flex items-center gap-2 text-xs font-medium bg-white border border-gray-200 text-ink px-3 py-1.5 rounded-full shadow-sm hover:border-gray-300 hover:scale-[1.03] transition-all duration-300"
-                          >
-                            {getSkillIcon(skill)}
-                            <span>{skill}</span>
-                          </span>
-                        ))}
-                    </div>
-
-                    {/* Featured VS Code Card (Larger Icon format) */}
-                    <motion.div 
-                      whileHover={{ scale: 1.02 }}
-                      className="w-full bg-white border border-gray-200/80 rounded-[2.5rem] p-4 flex items-center justify-center gap-6 shadow-sm hover:shadow-md transition-all duration-300"
+                <div className="flex flex-wrap gap-2">
+                  {group.skills.map((skill) => (
+                    <span
+                      key={skill}
+                      className="inline-flex items-center gap-2 text-xs font-medium bg-white border border-gray-200 text-ink px-3 py-1.5 rounded-full shadow-sm hover:border-gray-300 hover:scale-[1.03] transition-all duration-300"
                     >
-                      <img src={vscodeIcon} alt="VS Code logo" className="w-12 h-12 object-contain" />
-                      <span className="text-base font-bold text-ink">VS Code</span>
-                    </motion.div>
-
-                    {/* Standard pills after VS Code */}
-                    <div className="flex flex-wrap gap-2">
-                      {group.skills
-                        .filter((skill) => skill !== 'Git' && skill !== 'GitHub' && skill !== 'VS Code' && skill !== 'MS Office')
-                        .map((skill) => (
-                          <span
-                            key={skill}
-                            className="inline-flex items-center gap-2 text-xs font-medium bg-white border border-gray-200 text-ink px-3 py-1.5 rounded-full shadow-sm hover:border-gray-300 hover:scale-[1.03] transition-all duration-300"
-                          >
-                            {getSkillIcon(skill)}
-                            <span>{skill}</span>
-                          </span>
-                        ))}
-                    </div>
-
-                    {/* Featured MS Office Card (Larger Icon format) */}
-                    <motion.div 
-                      whileHover={{ scale: 1.02 }}
-                      className="w-full bg-white border border-gray-200/80 rounded-[2.5rem] p-4 flex items-center justify-center gap-6 shadow-sm hover:shadow-md transition-all duration-300"
-                    >
-                      <img src={msOfficeIcon} alt="MS Office logo" className="w-12 h-12 object-contain" />
-                      <span className="text-base font-bold text-ink">MS Office</span>
-                    </motion.div>
-                  </div>
-                ) : (
-                  <div className="flex flex-col gap-4">
-                    {/* If category is Data Analytics & Visualization, render Power BI showcase first */}
-                    {group.cat === 'Data Analytics & Visualization' && (
-                      <motion.div 
-                        whileHover={{ scale: 1.02 }}
-                        className="w-full bg-white border border-gray-200/80 rounded-[2.5rem] p-4 flex items-center justify-center gap-6 shadow-sm hover:shadow-md transition-all duration-300"
-                      >
-                        <img src={powerBiIcon} alt="Power BI logo" className="w-12 h-12 object-contain" />
-                        <span className="text-base font-bold text-ink">Power BI</span>
-                      </motion.div>
-                    )}
-
-                    {/* Render standard pills */}
-                    <div className="flex flex-wrap gap-2">
-                      {group.skills
-                        .filter((skill) => skill !== 'Power BI' && skill !== 'MS Office' && skill !== 'VS Code')
-                        .map((skill) => (
-                          <span
-                            key={skill}
-                            className="inline-flex items-center gap-2 text-xs font-medium bg-white border border-gray-200 text-ink px-3 py-1.5 rounded-full shadow-sm hover:border-gray-300 hover:scale-[1.03] transition-all duration-300"
-                          >
-                            {getSkillIcon(skill)}
-                            <span>{skill}</span>
-                          </span>
-                        ))}
-                    </div>
-                  </div>
-                )}
+                      {getSkillIcon(skill)}
+                      <span>{skill}</span>
+                    </span>
+                  ))}
+                </div>
               </div>
             </motion.div>
           ))}
