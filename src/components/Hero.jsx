@@ -57,7 +57,7 @@ export default function Hero() {
               { num: '5', label: 'Projects Done' },
               { num: '2', label: 'Workshops Org.' },
               { num: '3', label: 'Leadership' },
-              { num: '1', label: 'Self-Published' },
+              { num: '1', label: 'Self-Published Book' },
             ].map(({ num, label }) => (
               <div key={label} className="text-left min-w-[80px]">
                 <p className="text-3xl font-bold text-ink">{num}</p>
