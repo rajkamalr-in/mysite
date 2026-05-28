@@ -7,7 +7,8 @@ import {
   Webhook, 
   Sparkles, 
   Scissors,
-  Terminal
+  Terminal,
+  Workflow
 } from 'lucide-react';
 
 import powerBiIcon from '../assets/powerbi_icon.png';
@@ -24,7 +25,7 @@ const skillGroups = [
   {
     cat: 'AI / ML Tools',
     color: 'bg-purple-50 border-purple-100',
-    skills: ['OpenCV', 'Face Recognition', 'LLM API & Integration'],
+    skills: ['OpenCV', 'Face Recognition', 'LLM API & Integration', 'RAG'],
   },
   {
     cat: 'Data Analytics & Visualization',
@@ -107,6 +108,8 @@ const getSkillIcon = (skill) => {
       return <ScanFace className="w-4 h-4 text-emerald-600 stroke-[2.5]" />;
     case 'LLM API & Integration':
       return <Brain className="w-4 h-4 text-purple-600 stroke-[2.5]" />;
+    case 'RAG':
+      return <Workflow className="w-4 h-4 text-purple-600 stroke-[2.5]" />;
     case 'APIs':
       return <Webhook className="w-4 h-4 text-indigo-600 stroke-[2.5]" />;
     case 'AI IDEs':
