@@ -89,17 +89,17 @@ export default function AboutBento() {
                 <div className="flex items-start gap-3">
                   <span className="mt-1 w-2 h-2 rounded-full bg-ink flex-shrink-0" />
                   <div>
-                    <p className="text-ink text-sm font-semibold">AI & ML Developer</p>
-                    <p className="text-muted text-xs mt-0.5">CattleVetLook — Multimodal AI Project</p>
-                    <p className="text-muted text-xs mt-0.5">2024 – Present · 1 Year</p>
+                    <p className="text-ink text-sm font-semibold">Application Developer (Intern)</p>
+                    <p className="text-muted text-xs mt-0.5">WVI Web Ventures India</p>
+                    <p className="text-muted text-xs mt-0.5">May 2025 – Feb 2026 · 10 mos</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <span className="mt-1 w-2 h-2 rounded-full bg-gray-300 flex-shrink-0" />
                   <div>
-                    <p className="text-ink text-sm font-semibold">AI & Data Science Graduate</p>
-                    <p className="text-muted text-xs mt-0.5">Academic Projects & Research</p>
-                    <p className="text-muted text-xs mt-0.5">Python · CV · GenAI · SQL</p>
+                    <p className="text-ink text-sm font-semibold">AI & ML Developer</p>
+                    <p className="text-muted text-xs mt-0.5">CattleVetLook — Multimodal AI</p>
+                    <p className="text-muted text-xs mt-0.5">2024 – Present · 1 Year</p>
                   </div>
                 </div>
               </div>
@@ -114,9 +114,12 @@ export default function AboutBento() {
           <motion.div {...anim(0.4)}>
             <Card dark className="h-full flex flex-col justify-between">
               <p className="text-gray-400 text-xs uppercase tracking-widest font-semibold mb-4">Philosophy</p>
-              <p className="font-serif text-xl font-semibold text-white leading-snug">
-                "Build systems that learn, adapt, and solve what matters most."
-              </p>
+              <div>
+                <p className="font-serif text-xl font-semibold text-white leading-snug">
+                  "Let’s go invent tomorrow instead of worrying about what happened yesterday."
+                </p>
+                <p className="text-xs text-gray-400 mt-3 font-medium">— Steve Jobs</p>
+              </div>
               <div className="mt-6 flex gap-2 flex-wrap">
                 {['AI-First', 'Data-Driven', 'End-to-End'].map((t) => (
                   <span key={t} className="text-xs font-medium bg-white/10 text-gray-300 px-3 py-1 rounded-full">
