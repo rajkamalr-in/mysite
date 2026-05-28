@@ -47,10 +47,10 @@ export default function AboutBento() {
               <div className="space-y-4">
                 <p className="text-ink text-base leading-relaxed">
                   I am <span className="font-semibold">Rajkamal Ravichandran</span>, an AI &amp; Data Science Graduate
-                  with hands-on experience architecting realworld systems,including a multimodal AI
-                  framework <span className="font-semibold">CattleVetLook</span> for automated veterinary diagnostics.Proficient in <span className="text-ink font-medium">Python, SQL, Computer Vision</span>,
+                  with hands-on experience architecting real-world systems, including a multimodal AI
+                  framework <span className="font-semibold">CattleVetLook</span> for automated veterinary diagnostics. Proficient in <span className="text-ink font-medium">Python, SQL, Computer Vision</span>,
                   and <span className="text-ink font-medium">Multimodal Generative AI</span> to build
-                  optimized, end-to-end data pipelines.Proven leader &amp; mentor looking to drive innovation as an{' '}
+                  optimized, end-to-end data pipelines. Proven leader &amp; mentor looking to drive innovation as an{' '}
                   <span className="text-ink font-medium">Associate AI Engineer</span>,{' '}
                   <span className="text-ink font-medium">Graduate Engineer Trainee</span>, or{' '}
                   <span className="text-ink font-medium">Data Scientist</span>.
