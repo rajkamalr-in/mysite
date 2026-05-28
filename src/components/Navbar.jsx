@@ -32,7 +32,7 @@ export default function Navbar() {
       <nav className="max-w-6xl mx-auto px-6 flex items-center justify-between h-16">
         {/* Logo */}
         <a href="#home" className="text-lg font-bold tracking-tight text-ink">
-          Rajkamal<span className="text-gray-400">.</span>
+          Rajkamal Ravichandran<span className="text-gray-400">.</span>
         </a>
 
         {/* Desktop Links */}

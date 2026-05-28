@@ -46,7 +46,7 @@ export default function AboutBento() {
               <p className="text-muted text-sm uppercase tracking-widest font-semibold mb-5">Who I Am</p>
               <div className="space-y-4">
                 <p className="text-ink text-base leading-relaxed">
-                  I am <span className="font-semibold">Rajkamal</span>, an AI &amp; Data Science Graduate
+                  I am <span className="font-semibold">Rajkamal Ravichandran</span>, an AI &amp; Data Science Graduate
                   with hands-on experience architecting realworld systems,including a multimodal AI
                   framework <span className="font-semibold">CattleVetLook</span> for automated veterinary diagnostics.Proficient in <span className="text-ink font-medium">Python, SQL, Computer Vision</span>,
                   and <span className="text-ink font-medium">Multimodal Generative AI</span> to build
@@ -77,7 +77,7 @@ export default function AboutBento() {
           {/* Photo */}
           <motion.div {...anim(0.3)}>
             <div className="rounded-3xl overflow-hidden h-64 md:h-full">
-              <img src={aboutImg} alt="Rajkamal workspace" className="w-full h-full object-cover" />
+              <img src={aboutImg} alt="Rajkamal Ravichandran workspace" className="w-full h-full object-cover" />
             </div>
           </motion.div>
 

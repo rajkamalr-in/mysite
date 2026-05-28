@@ -37,7 +37,7 @@ export default function Hero() {
           {/* Sub */}
           <motion.div {...fadeUp(0.3)} className="mb-10 max-w-lg space-y-3">
             <p className="text-base text-muted leading-relaxed">
-              I am <span className="text-ink font-semibold">Rajkamal</span>, an AI &amp; Data Science Graduate with hands-on experience architecting real-world systems, including a multimodal AI framework{' '}
+              I am <span className="text-ink font-semibold">Rajkamal Ravichandran</span>, an AI &amp; Data Science Graduate with hands-on experience architecting real-world systems, including a multimodal AI framework{' '}
               <span className="text-ink font-semibold">CattleVetLook</span> for automated veterinary diagnostics.
               Proficient in{' '}
               <span className="text-ink font-medium">Python, SQL, Computer Vision</span>, and{' '}
@@ -95,7 +95,7 @@ export default function Hero() {
           {/* Portrait */}
           <img
             src={heroImg}
-            alt="Rajkamal – AI & Data Science Engineer"
+            alt="Rajkamal Ravichandran – AI & Data Science Engineer"
             className="relative z-10 w-72 md:w-80 object-cover object-top"
             style={{ filter: 'drop-shadow(0 20px 60px rgba(0,0,0,0.12))' }}
           />

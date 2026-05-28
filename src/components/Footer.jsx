@@ -82,7 +82,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <p className="text-2xl font-bold mb-4">
-              Rajkamal<span className="text-gray-500">.</span>
+              Rajkamal Ravichandran<span className="text-gray-500">.</span>
             </p>
             <p className="text-gray-400 text-sm leading-relaxed mb-6 max-w-xl">
               Associate AI Engineer | Web App Developer | Building Multimodal AI Frameworks | Turning Ideas into Scalable Projects | Committed to Growth & Innovation.
@@ -123,7 +123,7 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="border-t border-white/10">
         <div className="max-w-6xl mx-auto px-6 py-6 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-gray-500">
-          <p>© 2026 Rajkamal</p>
+          <p>© 2026 Rajkamal Ravichandran</p>
         </div>
       </div>
 
