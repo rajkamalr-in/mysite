@@ -99,7 +99,7 @@ export default function AboutBento() {
                   <div>
                     <p className="text-ink text-sm font-semibold">AI & ML Developer</p>
                     <p className="text-muted text-xs mt-0.5">CattleVetLook — Multimodal AI</p>
-                    <p className="text-muted text-xs mt-0.5">2024 – Present · 1 Year</p>
+                    <p className="text-muted text-xs mt-0.5">Jan 2026 – Apr 2026</p>
                   </div>
                 </div>
               </div>
