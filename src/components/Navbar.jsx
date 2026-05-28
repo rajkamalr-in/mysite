@@ -51,7 +51,7 @@ export default function Navbar() {
 
         {/* CTA */}
         <a
-          href="mailto:hello@rajkamal.dev"
+          href="mailto:rajkamalr.in@gmail.com"
           className="hidden md:inline-flex items-center gap-2 bg-ink text-white text-sm font-semibold px-5 py-2.5 rounded-full hover:bg-gray-800 transition-colors"
         >
           Hire Me ↗
@@ -83,7 +83,7 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="mailto:hello@rajkamal.dev"
+              href="mailto:rajkamalr.in@gmail.com"
               className="mt-2 bg-ink text-white text-sm font-semibold px-5 py-3 rounded-full text-center"
             >
               Hire Me ↗
