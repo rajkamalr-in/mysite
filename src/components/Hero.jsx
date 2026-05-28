@@ -51,14 +51,17 @@ export default function Hero() {
           </motion.div>
 
           {/* Stats */}
-          <motion.div {...fadeUp(0.4)} className="flex items-center gap-10 mb-12">
+          <motion.div {...fadeUp(0.4)} className="flex flex-wrap items-center gap-x-8 gap-y-6 mb-12">
             {[
+              { num: '1', label: 'Year Exp.' },
               { num: '5', label: 'Projects Done' },
-              { num: '1', label: 'Years Exp.' },
+              { num: '2', label: 'Workshops Org.' },
+              { num: '3', label: 'Leadership' },
+              { num: '1', label: 'Self-Published' },
             ].map(({ num, label }) => (
-              <div key={label} className="text-center">
+              <div key={label} className="text-left min-w-[80px]">
                 <p className="text-3xl font-bold text-ink">{num}</p>
-                <p className="text-xs text-muted mt-1">{label}</p>
+                <p className="text-[11px] font-semibold text-muted mt-1 uppercase tracking-wider">{label}</p>
               </div>
             ))}
           </motion.div>
