@@ -51,7 +51,9 @@ export default function Navbar() {
 
         {/* CTA */}
         <a
-          href="mailto:rajkamalr.in@gmail.com"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=rajkamalr.in@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
           className="hidden md:inline-flex items-center gap-2 bg-ink text-white text-sm font-semibold px-5 py-2.5 rounded-full hover:bg-gray-800 transition-colors"
         >
           Hire Me ↗
@@ -83,7 +85,9 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="mailto:rajkamalr.in@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=rajkamalr.in@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-2 bg-ink text-white text-sm font-semibold px-5 py-3 rounded-full text-center"
             >
               Hire Me ↗

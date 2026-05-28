@@ -23,7 +23,7 @@ export default function Hero() {
             {...fadeUp(0.1)}
             className="text-xs font-semibold uppercase tracking-widest text-muted mb-6"
           >
-            Building Tomorrow's Intelligence.
+            A journey of a thousand miles begins with a single step.
           </motion.p>
 
           {/* Headline */}
