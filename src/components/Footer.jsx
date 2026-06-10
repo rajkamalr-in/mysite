@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import siteLogo from '../assets/site_logo.png';
 
 const navLinks = [
   { label: 'Home',            href: '#home' },
@@ -82,9 +81,9 @@ export default function Footer() {
 
           {/* Brand */}
           <div className="md:col-span-2">
-            <div className="mb-4">
-              <img src={siteLogo} alt="Rajkamal Logo" className="h-14 w-auto object-contain" />
-            </div>
+            <p className="text-2xl font-bold mb-4">
+              Rajkamal Ravichandran<span className="text-gray-500">.</span>
+            </p>
             <p className="text-gray-400 text-sm leading-relaxed mb-6 max-w-xl">
               Associate AI Engineer | Web App Developer | Building Multimodal AI Frameworks | Turning Ideas into Scalable Projects | Committed to Growth & Innovation.
             </p>

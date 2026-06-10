@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import siteLogo from '../assets/site_logo.png';
 
 const links = [
   { label: 'About',           href: '#about' },
@@ -32,8 +31,8 @@ export default function Navbar() {
     >
       <nav className="max-w-6xl mx-auto px-6 flex items-center justify-between h-16">
         {/* Logo */}
-        <a href="#home" className="flex items-center">
-          <img src={siteLogo} alt="Rajkamal Logo" className="h-10 w-auto object-contain" />
+        <a href="#home" className="text-lg font-bold tracking-tight text-ink">
+          Rajkamal Ravichandran<span className="text-gray-400">.</span>
         </a>
 
         {/* Desktop Links */}
