@@ -102,26 +102,6 @@ export default function Hero() {
             className="relative z-10 w-72 md:w-80 object-cover object-top"
             style={{ filter: 'drop-shadow(0 20px 60px rgba(0,0,0,0.12))' }}
           />
-
-          {/* Floating badges */}
-          <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 0.8 }}
-            className="absolute top-8 -right-4 z-20 bg-white rounded-2xl px-4 py-3 shadow-lg flex items-center gap-2 text-sm font-medium"
-          >
-            <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse" />
-            Available for Work
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 1 }}
-            className="absolute bottom-12 -left-4 z-20 bg-ink text-white rounded-2xl px-4 py-3 shadow-lg text-sm font-medium"
-          >
-            AI & Data Science
-          </motion.div>
         </motion.div>
 
       </div>

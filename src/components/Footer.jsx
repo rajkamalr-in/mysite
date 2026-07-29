@@ -32,7 +32,7 @@ const socials = [
   },
   {
     label: 'LeetCode',
-    href: 'https://leetcode.com/u/RajkamalRavichandran',
+    href: 'https://leetcode.com/u/rajkamalr/',
     icon: (
       <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor">
         <path d="M13.483 0a1.374 1.374 0 0 0-.961.414l-9.777 9.778a3.75 3.75 0 0 0 0 5.304l3.194 3.194a3.75 3.75 0 0 0 5.304 0l9.778-9.778a1.375 1.375 0 0 0 0-1.945L16.29.414A1.374 1.374 0 0 0 13.483 0zm-1.897 2.146l3.75 3.75-8.293 8.293-3.75-3.75 8.293-8.293zm5.707 5.707l3.75 3.75-8.293 8.293-3.75-3.75 8.293-8.293z" />
